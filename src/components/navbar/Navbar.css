@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Changa:wght@300&family=Comforter+Brush&family=Dancing+Script:wght@500&family=Faster+One&family=Lilita+One&family=Lobster&family=Monoton&family=Silkscreen&family=Special+Elite&display=swap");
+nav {
+  background-color: rgba(7, 6, 17, 0.658);
+  display: flex;
+  flex-direction: column;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+span {
+  color: #cfa670;
+  position: absolute;
+  left: 5rem;
+  top: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 0 1.5rem;
+}
+ul li a:hover {
+  background-color: rgba(7, 6, 17, 0.952);
+  color: #cfa670;
+}
+@media screen and (max-width: 770px) {
+  span {
+    position: absolute;
+    left: 3rem;
+    top: 0.5rem;
+    font-size: 2.5rem;
+  }
+  ul {
+    margin-top: 3rem;
+  }
+  ul li {
+    display: flex;
+  }
+  ul li a {
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  nav {
+    font-size: 1.2rem;
+  }
+}

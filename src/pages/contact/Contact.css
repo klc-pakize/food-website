@@ -1,0 +1,62 @@
+.contactcontainer {
+  position: relative;
+  height: 200px;
+}
+
+.contactcontent {
+  background-color: #030009c9;
+  position: absolute;
+  left: 50%;
+  top: 200%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: #cfa670;
+  width: 1000px;
+  border-radius: 25px;
+  border-top: 0.5rem solid #d29649;
+  font-family: "Dancing Script", cursive;
+  height: 700px;
+}
+.contactimg {
+  width: 300px;
+  position: absolute;
+  top: 21%;
+  left: 5%;
+}
+.contactimg2 {
+  width: 325px;
+  position: absolute;
+  top: 15%;
+  left: 62%;
+}
+.contactimg3 {
+  width: 270px;
+  position: absolute;
+  top: 22%;
+  left: 35%;
+}
+.a1 {
+  position: absolute;
+  left: 74%;
+  top: 65%;
+  font-size: 3rem;
+  color: white;
+}
+.a2 {
+  position: absolute;
+  left: 45%;
+  top: 65%;
+  font-size: 3rem;
+  color: white;
+}
+.a3 {
+  position: absolute;
+  left: 18%;
+  top: 65%;
+  font-size: 3.2rem;
+  color: white;
+}
+
+a:hover {
+  color: #cfa670;
+}
